@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "网站地图"
+title: "网站地图 "
 permalink: /sitemap/
 author_profile: true
 ---

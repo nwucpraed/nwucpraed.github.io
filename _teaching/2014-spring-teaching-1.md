@@ -6,11 +6,10 @@ permalink: /teaching/2014-spring-teaching-1
 venue: "西北大学太白校区家属区"
 date: 2022-04-09
 location: "西安市, 碑林区"
-![laonian2](/images/Laonian/laonian2.jpg)
 ---
 
 
-
+![laonian2](/images/Laonian/laonian2.jpg)
 
 
 

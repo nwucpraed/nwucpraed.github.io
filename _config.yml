@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "嘟嘟长安" ##  "Your Name / Site Title"
+title                    : "嘟嘟长安 (CPR-AED)" ##  "Your Name / Site Title"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"

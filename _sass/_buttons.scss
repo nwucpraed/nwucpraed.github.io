@@ -101,7 +101,7 @@
     background-color: $danger-color;
 
     &:hover {
-      background-color: mix(#000, $danger-color, 20%);
+      background-color: mix(rgb(243, 14, 14), $danger-color, 20%);
     }
   }
 

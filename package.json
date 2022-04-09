@@ -1,79 +1,33 @@
 {
-  "name": "nhsuk-frontend",
-  "version": "6.1.0",
-  "description": "NHS.UK frontend contains the code you need to start building user interfaces for NHS websites and services.",
-  "scripts": {
-    "prepare": "gulp bundle",
-    "build": "gulp build",
-    "start": "gulp",
-    "test": "npm run lint && npm run jest:ci",
-    "lint": "npm run lint:js && npm run lint:css && npm run lint:html",
-    "lint:js": "eslint -c ./tests/linters/.eslintrc.js packages/components/**/*.js",
-    "lint:css": "stylelint -f verbose --config ./tests/linters/.stylelintrc.yml 'packages/**/*.scss'",
-    "lint:html": "htmlhint --config ./tests/linters/.htmlhintrc ./dist/app/components/**/*.html",
-    "backstop:ref": "concurrently \"npm start\" \"wait-on http://localhost:3000 && backstop --config=./tests/backstop/backstop.js reference --docker\"",
-    "backstop:test": "concurrently \"npm start\" \"wait-on http://localhost:3000 && backstop --config=./tests/backstop/backstop.js test --docker\"",
-    "backstop:ci": "start-server-and-test start http://0.0.0.0:3000 backstop:citest",
-    "backstop:citest": "backstop --config=./tests/backstop/backstop.js test --docker",
-    "backstop:approve": "backstop --config=./tests/backstop/backstop.js approve",
-    "backstop:clean": "rm -rf tests/backstop/bitmaps_test/*",
-    "build-gh-pages": "gulp bundle && BASE_URL='/nhsuk-frontend/' gulp docs:build",
-    "build-gh-release": "gulp zip",
-    "jest:dev": "jest --watch",
-    "jest:ci": "jest"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
-    "babel-loader": "^8.2.2",
-    "backstopjs": "^5.4.4",
-    "concurrently": "^6.4.0",
-    "eslint": "^7.32.0",
-    "eslint-config-nhsuk": "^1.0.0",
-    "gulp": "^4.0.2",
-    "gulp-clean": "^0.4.0",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-connect": "^5.7.0",
-    "gulp-nunjucks": "^5.0.2",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^5.0.0",
-    "gulp-uglify": "^3.0.2",
-    "gulp-zip": "^5.0.2",
-    "htmlhint": "^0.14.2",
-    "husky": "^4.3.8",
-    "jest": "^26.6.3",
-    "minimist": "^1.2.5",
-    "nunjucks": "^3.2.2",
-    "sass": "^1.44.0",
-    "start-server-and-test": "^1.14.0",
-    "stylelint": "^13.13.1",
-    "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.19.0",
-    "wait-on": "^6.0.0",
-    "webpack-stream": "^5.2.1"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "eslintConfig": {
-    "extends": "./tests/linters/.eslintrc.js"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm test"
-    }
-  },
-  "files": [
-    "dist",
-    "packages"
-  ],
+  "name": "minimal-mistakes",
+  "version": "3.4.2",
+  "description": "Minimal Mistakes Jekyll theme npm build scripts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nhsuk/nhsuk-frontend.git"
+    "url": "git://github.com/mmistakes/minimal-mistakes.git"
   },
-  "homepage": "https://nhsuk.github.io/nhsuk-frontend/",
+  "keywords": [
+    "jekyll",
+    "theme",
+    "minimal"
+  ],
+  "author": "Michael Rose",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nhsuk/nhsuk-frontend/issues"
+    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
   },
-  "license": "MIT"
+  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^1.7.0",
+    "onchange": "^2.2.0",
+    "uglify-js": "^2.6.1"
+  },
+  "scripts": {
+    "uglify": "uglifyjs assets/js/vendor/jquery/jquery-1.12.4.min.js assets/js/plugins/jquery.fitvids.js assets/js/plugins/jquery.greedy-navigation.js assets/js/plugins/jquery.magnific-popup.js assets/js/plugins/jquery.smooth-scroll.min.js assets/js/plugins/stickyfill.min.js assets/js/_main.js -c -m -o assets/js/main.min.js",
+    "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
+    "build:js": "npm run uglify"
+  }
 }

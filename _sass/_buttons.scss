@@ -98,6 +98,7 @@
   /* danger */
 
   &--danger {
+    font-size: $type-size-4;
     background-color: $danger-color;
 
     &:hover {
@@ -137,6 +138,11 @@
 
   &--x-large {
     font-size: $type-size-4;
+    background-color: $danger-color;
+
+    &:hover {
+      background-color: mix(rgb(243, 14, 14), $danger-color, 20%);
+    }
   }
 
   /* large button */

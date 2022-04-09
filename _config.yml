@@ -81,12 +81,12 @@ analytics:
 # Site Author
 author:
   name             : "西北大学附属医院（西安市第三医院）"
-  avatar           : "/User/300.png"
+  avatar           : "/User/300.jpg"
   bio              : "Your biography for the left-hand sidebar"
   location         : "西安未央区凤城三路"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  nwu-scholar    : "https://med.nwu.edu.cn/info/1025/1910.htm"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -110,7 +110,7 @@ author:
   steam            :
   tumblr           :
   twitter          : "replacethistwitterhandle"
-  vine             :
+  vine             : 
   weibo            :
   xing             :
   youtube          :

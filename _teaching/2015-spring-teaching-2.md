@@ -1,20 +1,15 @@
 ---
-title: "Teaching experience 2"
+title: "老年慰问关怀活动"
 collection: teaching
-type: "Workshop"
+type: "开展慰问活动"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+venue: "西北大学长安校区家属区"
+date: 2022-04-05
+location: "西安市, 长安区""
 ---
+老年关怀活动
+============
 
-This is a description of a teaching experience. You can use markdown like any other post.
+### 开展慰问活动
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+![laonian1](/images/Laonian/laonian1.jpg)

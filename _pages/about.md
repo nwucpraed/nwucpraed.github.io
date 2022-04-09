@@ -40,5 +40,4 @@ redirect_from:
 
 同时，在西北大学周边试点的开展也为我们后续联系和与西安市红十字会与120急救中心合作降低了沟通难度和联系成本。
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/AboutMD/map.png)
+![map](/images/AboutMD/map.png)

@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: .32rem;
+  font-family: PingFangSC;
+}
+
+.sign_suc {
+  height: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+}
+
+.sign_suc .sign_cont {
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  -o-flex: 1;
+}
+
+.sign_suc .sign_top {
+  height: 3.9rem;
+  padding: .3rem;
+}
+
+.sign_suc .sign_top .sing_top_info {
+  position: relative;
+  height: 3.3rem;
+  padding: .2rem .3rem;
+  background: url(./bg_green.png) no-repeat center;
+  background-size: contain;
+}
+
+.sign_suc .sign_top .sing_top_info .sign_top_adr {
+  position: relative;
+  height: .46rem;
+  line-height: .46rem;
+  font-size: .32rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.sign_suc .sign_top .sing_top_info .sign_top_time {
+  height: .9rem;
+  margin-top: .55rem;
+  padding: 0 .3rem;
+  line-height: .9rem;
+  font-size: .64rem;
+  color: #fff;
+  text-align: center;
+}
+
+.sign_suc .sign_top .sing_top_info .sign_top_tip {
+  line-height: .4rem;
+  padding: 0 .3rem;
+  margin-top: .2rem;
+  font-size: .28rem;
+  color: #fff;
+  text-align: center;
+}
+
+.sign_suc .sign_top .sing_top_info .sigin_top_name {
+  position: absolute;
+  right: .3rem;
+  bottom: .3rem;
+  line-height: .36rem;
+  font-size: .28rem;
+  color: #fff;
+}
+
+.sign_suc .sign_cont {
+  position: relative;
+  padding: 1.3rem .3rem .3rem .3rem;
+}
+
+.sign_suc .sign_cont .sign_type_icon {
+  width: 1.4rem;
+  height: 1.4rem;
+  margin: 0 auto;
+  background: url(./suc_icon.png) no-repeat center;
+  background-size: contain;
+}
+
+.sign_suc .sign_cont .sign_cont_info {
+  line-height: .9rem;
+  margin-top: .6rem;
+  font-size: .64rem;
+  color: #333333;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sign_suc .sign_cont .sign_cont_time {
+  line-height: .66rem;
+  margin-top: .4rem;
+  font-size: .48rem;
+  color: #69D796;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sign_suc .sign_cont .sign_btn {
+  position: absolute;
+  width: 90%;
+  height: .8rem;
+  left: 5%;
+  bottom: .5rem;
+  line-height: .8rem;
+  border: 1px solid #596EFF;
+  border-radius: .08rem;
+  font-size: .32rem;
+  color: #596EFF;
+  text-align: center;
+}

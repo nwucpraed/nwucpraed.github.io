@@ -8,8 +8,6 @@ redirect_from:
 ---
 {% include base_path %}
 
-经验交流
-========
 
 <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}

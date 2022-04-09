@@ -6,197 +6,122 @@ redirect_from:
   - /md/
   - /markdown.html
 ---
-
-## Locations of key files/directories
-
-* Basic config options: _config.yml
-* Top navigation bar config: _data/navigation.yml
-* Single pages: _pages/
-* Collections of pages are .md or .html files in:
-  * _publications/
-  * _portfolio/
-  * _posts/
-  * _teaching/
-  * _talks/
-* Footer: _includes/footer.html
-* Static files (like PDFs): /files/
-* Profile image (can set in _config.yml): images/profile.png
-
-## Tips and hints
-
-* Name a file ".md" to have it render in markdown, name it ".html" to render in HTML.
-* Go to the [commit list](https://github.com/academicpages/academicpages.github.io/commits/master) (on your repo) to find the last version Github built with Jekyll. 
-  * Green check: successful build
-  * Orange circle: building
-  * Red X: error
-  * No icon: not built
-
-## Resources
- * [Liquid syntax guide](https://shopify.github.io/liquid/tags/control-flow/)
-
-## Markdown guide
-
-### Header three
-
-#### Header four
-
-##### Header five
-
-###### Header six
-
-## Blockquotes
-
-Single line blockquote:
-
-> Quotes are cool.
-
-## Tables
-
-### Table 1
-
-| Entry            | Item   |                                                              |
-| --------         | ------ | ------------------------------------------------------------ |
-| [John Doe](#)    | 2016   | Description of the item in the list                          |
-| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
-| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
-
-### Table 2
-
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|-----------------------------|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=============================|
-| Foot1   | Foot2   | Foot3   |
-
-## Definition Lists
-
-Definition List Title
-:   Definition list division.
-
-Startup
-:   A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.
-
-#dowork
-:   Coined by Rob Dyrdek and his personal body guard Christopher "Big Black" Boykins, "Do Work" works as a self motivator, to motivating your friends.
-
-Do It Live
-:   I'll let Bill O'Reilly [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.
-
-## Unordered Lists (Nested)
-
-  * List item one 
-      * List item one 
-          * List item one
-          * List item two
-          * List item three
-          * List item four
-      * List item two
-      * List item three
-      * List item four
-  * List item two
-  * List item three
-  * List item four
-
-## Ordered List (Nested)
-
-  1. List item one 
-      1. List item one 
-          1. List item one
-          2. List item two
-          3. List item three
-          4. List item four
-      2. List item two
-      3. List item three
-      4. List item four
-  2. List item two
-  3. List item three
-  4. List item four
-
-## Buttons
-
-Make any link standout more when applying the `.btn` class.
-
-## Notices
+## 产品与服务
 
 **Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
 {: .notice}
 
-## HTML Tags
 
-### Address Tag
+4.1产品介绍
 
-<address>
-  1 Infinite Loop<br /> Cupertino, CA 95014<br /> United States
-</address>
+医疗急救由于其时间和资源的不对称性一直是社会各界关注的重要问题，近两年来新冠疫情趋于常态化，提升医疗急救服务逐渐紧迫，在此背景下，    的诞生致力于搭建线上桥梁进一步紧密线下医疗机构与群众的联系，通过提供从用户病历追溯到急救知识培训到一键求救的一站式服务，以最大化利用急救黄金时间为目的，辅助医疗机构提升急救效率，尽可能减少急救前可以避免的遗憾。
 
-### Anchor Tag (aka. Link)
+4.2设计流程
 
-This is an example of a [link](http://github.com "Github").
+![业务流程图](vscode-webview-resource://1nfib5fbt383s6mq72fflbkmuvusk8dek1kdaou4en9hgoev6jc7/file///C%3a/Users/860EVO~1/AppData/Local/Temp/msohtmlclip1/01/clip_image002.gif)
 
-### Abbreviation Tag
+4.3产品服务
 
-The abbreviation CSS stands for "Cascading Style Sheets".
+![电商运营流程图](vscode-webview-resource://1nfib5fbt383s6mq72fflbkmuvusk8dek1kdaou4en9hgoev6jc7/file///C%3a/Users/860EVO~1/AppData/Local/Temp/msohtmlclip1/01/clip_image004.gif)
 
-*[CSS]: Cascading Style Sheets
+4.3.1服务对象
 
-### Cite Tag
+   服务对象分为用户和入驻医疗机构，用户进一步细分为是否专业的志愿者和有无病历的普通用户，有助于帮助本产品通过对其需求的精准化来设计对应服务，为不同需求用户打造更满意的服务体验和效果。
 
-"Code is poetry." ---<cite>Automattic</cite>
+![项目组织架构图](vscode-webview-resource://1nfib5fbt383s6mq72fflbkmuvusk8dek1kdaou4en9hgoev6jc7/file///C%3a/Users/860EVO~1/AppData/Local/Temp/msohtmlclip1/01/clip_image006.gif)
 
-### Code Tag
+4.3.2服务内容
 
-You will learn later on in these tests that `word-wrap: break-word;` will be your best friend.
+4.3.2.1按服务阶段分类
 
-### Strike Tag
+![数字运营时间轴](vscode-webview-resource://1nfib5fbt383s6mq72fflbkmuvusk8dek1kdaou4en9hgoev6jc7/file///C%3a/Users/860EVO~1/AppData/Local/Temp/msohtmlclip1/01/clip_image008.gif)
 
-This tag will let you <strike>strikeout text</strike>.
+4.3.2.2按服务对象分类
 
-### Emphasize Tag
+![运维组组织架构图](vscode-webview-resource://1nfib5fbt383s6mq72fflbkmuvusk8dek1kdaou4en9hgoev6jc7/file///C%3a/Users/860EVO~1/AppData/Local/Temp/msohtmlclip1/01/clip_image010.gif)
 
-The emphasize tag should _italicize_ text.
+4.4核心优势
 
-### Insert Tag
+4.4.1专业化
 
-This tag should denote <ins>inserted</ins> text.
+本产品与红十字会和医疗机构进行线上合作，专业性和权威性具有可信度；投放到平台上的线上课程和线下实操培训均由红十字会主导，考核体系科学完善，保证了志愿者急救知识和技能掌握的程度。在红十字会、医院、本平台三者资源共享、良性互助的基础上形成完备的急救体系。
 
-### Keyboard Tag
+|  |
+| - |
+|  |
 
-This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the `<code>` tag.
+4.4.2个性化
 
-### Preformatted Tag
+   本产品细分用户类型，按照不同用户类型设计引导步骤界面，按照不同用户的需求推送不同的急救知识课程和科普，同时，老年用户特别推出关怀版界面，且为每位老年用户关联至少一位亲属用户，将用户需求放在服务的第一位。
 
-This tag styles large blocks of code.
+4.4.3全面化
 
-<pre>
-.post-title {
-  margin: 0 0 5px;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 1.2;
-  and here's a line of some really, really, really, really long text, just to see how the PRE tag handles it and to find out how it overflows;
-}
-</pre>
+   在整个服务过程中，本产品从事前到事中到事后均为用户需求做好了保障。
 
-### Quote Tag
+![创意竖向时间轴](vscode-webview-resource://1nfib5fbt383s6mq72fflbkmuvusk8dek1kdaou4en9hgoev6jc7/file///C%3a/Users/860EVO~1/AppData/Local/Temp/msohtmlclip1/01/clip_image014.gif)
 
-<q>Developers, developers, developers&#8230;</q> &#8211;Steve Ballmer
+4.4.3.1
 
-### Strong Tag
+事前，本产品要求上传病人病史以方便救治时志愿者和医护人员更好的了解病人情况，同时，本产品按照用户需求会为用户及其关联用户推送相关急救课程从而有助于当事人面对紧急情况时做出更理智安全的决定。
 
-This tag shows **bold text**.
+4.4.3.2
 
-### Subscript Tag
+事中，本产品将求救者的病史信息和位置信息以及附近医疗急救器械、物资的具体位置信息均表现了出来，便于志愿者和医院急救人员在更快时间内对病人情况做出判断。
 
-Getting our science styling on with H<sub>2</sub>O, which should push the "2" down.
+4.4.3.3
 
-### Superscript Tag
+    事后，将成功救助病人的志愿者事迹在平台上宣传并对其救助经验进行推广，并且被救助者也可在平台上发布自己的感受，以此形成一个急救经验分享圈。
 
-Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should lift the 2 up.
+4.4.4规范化
 
-### Variable Tag
+   从注册申请成为志愿者到正式成为志愿者这一过程在本平台上已形成规范化体系：非专化用户申请志愿者首先要在平台上完成所有课程学习和测验（须达到90％），其次需要在本平台上完成红十字会线下急救志愿者培训报名并拿到红十字会颁发的急救志愿者证书，经过以上步骤，志愿者才在本平台上获得志愿者资质，成为志愿者之后，根据表现会定期对志愿者做出表彰。
 
-This allows you to denote <var>variables</var>.
+四、市场调查和分析
+
+7. 运营模式
+
+![未命名文件](vscode-webview-resource://1nfib5fbt383s6mq72fflbkmuvusk8dek1kdaou4en9hgoev6jc7/file///C%3a/Users/860EVO~1/AppData/Local/Temp/msohtmlclip1/01/clip_image016.gif)
+
+以嘟嘟长安平台为核心，连结各个层次主体，为其分别提供不同需求层次的服务，并以对方宣传助推作为回馈，并由各个主题带来的宣传渠道的拓宽来增加社会影响力，由此形成良性互助循环，并契合了嘟嘟长安平台推广公益急救的初心。
+
+8. 市场推广
+
+8.1产品
+
+![三角形循环箭头素材](vscode-webview-resource://1nfib5fbt383s6mq72fflbkmuvusk8dek1kdaou4en9hgoev6jc7/file///C%3a/Users/860EVO~1/AppData/Local/Temp/msohtmlclip1/01/clip_image018.gif)
+
+从服务、人员、品牌三方面强化产品质量和保障，始终以用户需求为中心，力求在三方面都做到前期、中期、后期全覆盖，并促进三方优势互相助力：
+
+·服务阶段和层次的细分对主要服务大军的综合素养提出来了更高的要求，在服务过程中基于用户需求和现实问题做出的不断优化推动者着产品研发人员进一步完善服务设计，推动着服务人员进一步完善提高自身素养。
+
+·服务人员综合素养的提高在实战中的体现、宣传人员对本产品的推广所做的努力、研发人员对产品设计的精益求精都推动着本产品用户信任度和社会声誉的提高，是一笔无形资产，有助于帮助本产品树立良好的品牌形象，也体现着我们对于社会责任的担当。
+
+·品牌形象的树立激励着本产品更好地为用户提升服务体验，用户的支持便是我们最大的前进动力。
+
+8.2价格
+
+基于本产品的公益性质和红十字会、医院的急救辅助平台的定位，本产品对用户不收取任何费用，包括急救课程学习和呼救服务的使用，这也体现了我们作为公益服务机构的初心和社会责任感。
+
+8.3宣传
+
+![图书管理系统功能](vscode-webview-resource://1nfib5fbt383s6mq72fflbkmuvusk8dek1kdaou4en9hgoev6jc7/file///C%3a/Users/860EVO~1/AppData/Local/Temp/msohtmlclip1/01/clip_image020.gif)
+
+产品采用线上+线下结合、多主体助力的方式进行宣传，有助于精准定位用户、扩大宣传范围。
+
+·线下：
+
+医院---在医院周边投放广告并以二维码形式呈现便于注册；通过医生和护士对病人的推荐引导用户注册，并且可信度高；
+
+红十字会---在红十字成员内部进行推广；
+
+社会---与医学类大中专学校合作，向大学生推广，引导其成为志愿者角色，其获得的志愿者证书可作为学校认定的实践活动证明；
+
+志愿者深入社区进行科普并推广本产品，并现场教学使用；
+
+用户---公益效应发挥作用，用户得到有益帮助可向周边人推广，志愿者的志愿证书激励着更多人参与志愿活动。
+
+·线上：
+
+红十字会---官网和公众号首页投放广告，可信度高，且用户定位更准确；
+
+社会---被救助者事例可能被媒体进行报道，从而提高公众认可度，树立社会形象。

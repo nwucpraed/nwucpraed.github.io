@@ -13,7 +13,7 @@ en: &DEFAULT_EN
   less_than                  : "less than"
   minute_read                : "minute read"
   share_on_label             : "分享"
-  meta_label                 : "120"
+  meta_label                 : " "
   tags_label                 : "Tags:"
   categories_label           : "Categories:"
   date_label                 : "发布于:"

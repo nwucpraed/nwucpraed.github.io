@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "西北大学附属医院（西安市第三医院）"
   avatar           : "/User/300.jpg"
-  bio              : "西安市第三医院命名“西北大学附属医院”，由西安市卫计委与西北大学共建共管。西安市第三医院分为东西两院：东院为5层高的门诊医技楼，建筑面积61000平方米；西院为13层住院楼，建筑面积52000平方米，还有5000平方米的后勤服务楼。医院建成后，将是一所集医疗、科研教学、预防保健、健康查体、干部保健为一体的现代化综合医院。"
+  bio              : "[医院用户]"
   location         : "西安未央区凤城三路"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  NWU Scholar      : "https://med.nwu.edu.cn/info/1025/1910.htm"
-  email            :
+  googlescholar    : "https://med.nwu.edu.cn/info/1025/1910.htm"
+  email            : "@nwu.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

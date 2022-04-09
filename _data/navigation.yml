@@ -1,22 +1,22 @@
 # main links links
 main:
-  - title: "Publications"
+  - title: "角色选择" #
     url: /publications/
 
-  - title: "Talks"
+  - title: "个人界面"
     url: /talks/    
 
-  - title: "Teaching"
+  - title: "老年关怀界面"
     url: /teaching/    
     
-  - title: "Portfolio"
+  - title: "分布图"
     url: /portfolio/
         
-  - title: "Blog Posts"
+  - title: "课程界面"
     url: /year-archive/
     
-  - title: "CV"
+  - title: "经验交流圈" # CV 
     url: /cv/
     
-  - title: "Guide"
+  - title: "网站地图"
     url: /markdown/

@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "嘟嘟长安 (CPR-AED)"
-excerpt: "About me"
+excerpt: "About me<br/><a href="https://twitter.com/intent/tweet?text={{ base_path }}{{ page.url }}" class="btn btn--danger" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Danger"><i class="fab fa-danger" aria-hidden="true"></i><span> danger</span></a>"
 author_profile: true
 redirect_from: 
   - /about/

@@ -1,10 +1,9 @@
 ---
 layout: archive
-title: "Sitemap"
+title: "网站地图"
 permalink: /sitemap/
 author_profile: true
 ---
-
 {% include base_path %}
 
 A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
@@ -25,7 +24,8 @@ A list of all the posts and pages found on the site. For you robots out there is
 {% unless collection.output == false or collection.label == "posts" %}
   {% capture label %}{{ collection.label }}{% endcapture %}
   {% if label != written_label %}
-  <h2>{{ label }}</h2>
+
+<h2>{{ label }}</h2>
   {% capture written_label %}{{ label }}{% endcapture %}
   {% endif %}
 {% endunless %}

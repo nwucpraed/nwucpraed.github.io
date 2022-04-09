@@ -8,21 +8,21 @@ redirect_from:
 ---
 {% include base_path %}
 
-Publications
-============
+经验交流
+========
 
 <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Talks
-=====
+病例分享
+========
 
 <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
-Teaching
+谈心分享
 ========
 
 <ul>{% for post in site.teaching %}

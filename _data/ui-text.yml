@@ -13,7 +13,7 @@ en: &DEFAULT_EN
   less_than                  : "less than"
   minute_read                : "minute read"
   share_on_label             : "分享"
-  meta_label                 : " "
+  meta_label                 : "按下120红色按钮触发嘟嘟长安"
   tags_label                 : "Tags:"
   categories_label           : "Categories:"
   date_label                 : "发布于:"
